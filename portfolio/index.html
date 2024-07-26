@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Mr.Bisht || Protfolio Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="right">Mr.Bisht</div>
+          <div class="left">
+            <ul id="sidemenu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Protfolio</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#contact">Contact us</a></li>
+              <i class="icon ri-close-fill" onclick="closemenu()"></i>
+            </ul>
+            <i class="icon ri-menu-line" onclick="openmenu()"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home">
+        <div class="container">
+          <div class="intro-text">
+            Hi, I am <br><span class="namecolor">Pawan Singh Bisht</span>
+            <div>and I'm a passionate</div>
+            <span id="element"></span>
+          </div>
+          <div class="intro-img">
+            <img src="images/profile.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- about -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/pic.png" alt="" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About me</h1>
+              <p>
+                Hi! I’m Pawan Singh Bisht, a frontend developer who loves creating intuitive and visually attractive web experiences. Skilled in HTML, CSS, JavaScript, and React, I build responsive and engaging websites. I am committed to continuous learning and delivering high-quality work. Let’s create something excellent together!
+              </p>
+              <div class="tab-title">
+                <div class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </div>
+                <div class="tab-links" onclick="opentab('expression')">
+                  Expression
+                </div>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>C language</span> </li>
+                  <li><span>Web designer</span></li>
+                  <li><span>Frontend developer</span</li>
+                  
+                  <li>
+                    <span>Web development</span>
+                  </li>
+
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="expression">
+                <ul>
+                  <li>
+                    <span>Web designer</span><br>8 months Expression
+                  </li>
+                  <li><span>Frontend developer</span> <br> 6 months Expression</li>
+                  <li><span>Web development</span><br>3 months Expression</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Service -->
+      <section id="services">
+        <div class="container">
+              <div class="sub-title">My Services</div>
+              <div class="services-list">
+                <div>
+                  <i class="ri-code-s-slash-line"></i>
+                  <h2>Frontend Service</h2>
+                  <p>
+                    This are my Frontend development servicers. In this servicers we are create your website inter-face full responsive.
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+                
+                <div>
+                  <i class="ri-crop-2-line"></i>
+                  <h2>Web developer</h2>
+                  <p>
+                  This are my web development servicers. I'm create your website.
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <!-- portfolio -->
+      <section id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/netfl.jpg" alt="" />
+              <div class="layer">
+                <h3>Website UI Clone</h3>
+                <p>
+                  This is a Netflix website UI clone project.
+                </p>
+                <a href="https://github.com/MrBishtji/netflex" target="_blank"><i class="ri-external-link-line"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/land.jpg" alt="" />
+              <div class="layer">
+                <h3>Landing Page</h3>
+                <p>
+                  This is a Website landing page design.
+                </p>
+                <a href="https://github.com/MrBishtji/netflex" target="_blank"><i class="ri-external-link-line"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/cal.jpg" alt="" />
+              <div class="layer">
+                <h3>Mini Project</h3>
+                <p>
+                 This is a calculatro project create using HTML,CSS, JavaScript.
+                </p>
+                <a href="https://github.com/MrBishtji/netflex" target="_blank"><i class="ri-external-link-line"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </section>
+      <hr>
+      <!-- Contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1>Contact Me</h1>
+              <p><i class="ri-send-plane-fill"></i> bisht813020@gmail.com</p>
+              <p><i class="ri-phone-fill"></i> 8178492425</p>
+              <div class="social-icons">
+                <a href="https://github.com/MrBishtji" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/mr.bishtji22/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.linkedin.com/in/pawan-singh-bisht-66509027a/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://t.me/Mr_bishtji"  target="_blank"><i class="ri-telegram-fill"></i></a>
+              </div>
+              <a href="images/cv.pdf" download target="_blank" class="btn btn2"
+                >Download CV</a
+              >
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Enter Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="Email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+                <textarea
+                  required
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+    <footer><p class="copyright">
+      Copyright &copy Mr.Bisht 2024. Made with by
+      <i class="ri-heart-fill"></i> Pawan Singh Bisht
+    </p></footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web developer", "Wed designer", "Frontend developer."],
+        typeSpeed: 40,
+      });
+      </script>
+    <script src="script.js"></script>
+  </body>
+</html>
